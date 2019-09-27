@@ -1,6 +1,8 @@
 # Building Classification
 
-This is the code for the project of *soft-story building classification*.
+This is the code for the project of *soft-story building classification*. 
+
+The goal of this project is designing a model which can automatically classify a soft-story building based on a single street view image.
 
 ### Prerequisites
 
@@ -57,7 +59,7 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
 
 ### Application
-Based on the prediction of the trained model, a soft-story building distribution map can be created given a city/region. The below figure shows the distribution map of Oakland, which is created by [*SURF*](https://github.com/charlesxwang/SURF).
+Given a specific city/region, a soft-story building distribution map can be created based on the prediction of the trained model. The below figure shows the distribution map of Oakland, which is created by [*SURF*](https://github.com/charlesxwang/SURF).
 
 ![predicted SS distribution map of Oakland](heatmap-oakland.png)
 

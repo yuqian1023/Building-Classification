@@ -36,7 +36,7 @@ CPU or NVIDIA GPU + CUDA CuDNN
 
 ### Datasets and Results
 
-Dataset (*SS* refers to soft-story building)
+Datasets (*SS* refers to soft-story building). All images in the datasets are collected by [Google Street View API](https://developers.google.com/maps/documentation/streetview/intro).
 
    | City |	# SS	|  # non-SS |   # train  | # test |
    |:-------:|:--------:| --------:| ---------:|---------:|
@@ -57,5 +57,5 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
 
 ### Application
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![predicted SS distribution map of Oakland](/illustrations/logo.png)
+Based on the prediction, a soft-story building distribution map is created for Oakland.

@@ -56,3 +56,6 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    | ResNet50   | 82.29%	| 81.54% | 82.81%  | 82.17%  |
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
 
+### Application
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)

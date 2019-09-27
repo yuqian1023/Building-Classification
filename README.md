@@ -21,15 +21,18 @@ step 4: Run the code.
 
 ### Training a Model
 
-cd /models/research/slim/
-
-./finetune_resnet_50_on_buildings.sh
+```shell
+  cd /models/research/slim/
+  ./finetune_resnet_50_on_buildings.sh
+```  
 
 ### Evaluating a Model
 
+```shell
 cd /models/research/slim/
 
 ./finetune_resnet_50_on_buildings_eval.sh
+``` 
 
 ### Datasets and Results
 

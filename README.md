@@ -1,2 +1,3 @@
 # Building-Classification
-building classification; deep learning; application
+This is the code for the project of soft-story building classification.
+

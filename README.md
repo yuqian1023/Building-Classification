@@ -29,11 +29,16 @@ step 4: Run the code.
 ### Evaluating a Model
 
 ```shell
-cd /models/research/slim/
-
-./finetune_resnet_50_on_buildings_eval.sh
+  cd /models/research/slim/
+  ./finetune_resnet_50_on_buildings_eval.sh
 ``` 
 
 ### Datasets and Results
 
+Dataset (*SS* refers to soft-story building)
+
+   | City |	# SS	|  # non-SS |   # train  | # test |
+   |:-------:|:--------:| --------:| ---------:|---------:|
+   | Santa Monica   | 3,203	| 3,921 | 6,421  | 712  |
+   | Oakland  | 717	| 642 | 1,224  | 135  |
 

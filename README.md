@@ -57,6 +57,8 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
 
 ### Application
+Based on the prediction of the trained model, a soft-story building distribution map can be created given a city/region. The below figure shows the distribution map of Oakland, which is created by [*SURF*](https://github.com/charlesxwang/SURF).
+
 ![predicted SS distribution map of Oakland](heatmap-oakland.png)
 
-Based on the prediction, a soft-story building distribution map is created for Oakland.
+

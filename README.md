@@ -15,7 +15,8 @@ step 1: Install latest version of TF-slim following the instruction [here](https
 
 step 2: Put this repo in the foloder /models/research/slim/
 
-step 3: Download [pre-trained models](https://github.com/tensorflow/models/tree/master/research/slim) (ResNet50/152 or InceptionV3/V4) and put them in the folder /models/research/slim/pretrained/; download the data via this link and put them in /models/research/slim//tfrecords/
+step 3: Download [pre-trained models](https://github.com/tensorflow/models/tree/master/research/slim) (ResNet50/152 or InceptionV3/V4) and put them in the folder /models/research/slim/pretrained/; download data ([Santa Monica](https://www.dropbox.com/s/huvod9jawka3ayj/Santa_Monica.tar.gz?dl=0) and 
+[Oakland](https://www.dropbox.com/s/hlwcs1v3y4jq71s/Oakland.tar.gz?dl=0) and put them in /models/research/slim/tfrecords/
 
 step 4: Run the code.
 

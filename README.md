@@ -2,7 +2,7 @@
 
 This is the code for the project of *soft-story building classification*. 
 
-The goal of this project is designing a model which can automatically classify a soft-story building based on a single street view image.
+The goal of this project is designing a model which can automatically classify a [soft-story building](https://en.wikipedia.org/wiki/Soft_story_building) based on a single street view image.
 
 ### Prerequisites
 

@@ -57,5 +57,6 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
 
 ### Application
-![predicted SS distribution map of Oakland](/illustrations/logo.png)
+![predicted SS distribution map of Oakland](heatmap-oakland.png)
+
 Based on the prediction, a soft-story building distribution map is created for Oakland.

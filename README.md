@@ -42,3 +42,16 @@ Dataset (*SS* refers to soft-story building)
    | Santa Monica   | 3,203	| 3,921 | 6,421  | 712  |
    | Oakland  | 717	| 642 | 1,224  | 135  |
 
+Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
+
+   | Model |	avg. acc.	|  Precision |   Recall  | F1 |
+   |:-------:|:--------:| --------:| ---------:|---------:|
+   | ResNet50   | 85.94%	| 84.16% | 82.80%  | 83.47%  |
+   | InceptionV3  | 84.38%	| 81.39% | 83.77%  | 82.56%  |
+   
+
+   | Model |	avg. acc.	|  Precision |   Recall  | F1 |
+   |:-------:|:--------:| --------:| ---------:|---------:|
+   | ResNet50   | 82.29%	| 81.54% | 82.81%  | 82.17%  |
+   | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
+

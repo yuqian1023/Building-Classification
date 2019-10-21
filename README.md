@@ -59,7 +59,8 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
    
 Generalization ability of the models 
-The models are trained on Santa Monica dataset and tested on a new set of street view images collected from Berkeley and San Jose. The Berkeley / San Jose set contains 395 images.
+
+Note: The models are trained on Santa Monica dataset and tested on 395 street view images collected from Berkeley and San Jose. 
 
    | Model |	avg. acc.	|  Precision |   Recall  | F1 |
    |:-------:|:--------:| --------:| ---------:|---------:|

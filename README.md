@@ -57,6 +57,14 @@ Performance of ResNet50 / InceptionV3 on Santa Monica / Oakland
    |:-------:|:--------:| --------:| ---------:|---------:|
    | ResNet50   | 82.29%	| 81.54% | 82.81%  | 82.17%  |
    | InceptionV3  | 80.21%	| 80.65% | 78.13%  | 79.37%  |
+   
+Generalization ability of the models 
+The models are trained on Santa Monica dataset and tested on a new set of street view images collected from Berkeley and San Jose. The Berkeley / San Jose set contains 395 images.
+
+   | Model |	avg. acc.	|  Precision |   Recall  | F1 |
+   |:-------:|:--------:| --------:| ---------:|---------:|
+   | ResNet50 | 86.61% | 84.26% | 89.34% | 86.70% |
+   | InceptionV3 | 87.72% | 84.26% | 92.39% | 88.14%  |
 
 ### Application
 Given a specific city/region, a soft-story building distribution map can be created based on the prediction of the trained model. The below figure shows the distribution map of Oakland, which is created by [*SURF*](https://github.com/charlesxwang/SURF).

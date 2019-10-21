@@ -31,6 +31,8 @@ CPU or NVIDIA GPU + CUDA CuDNN
 
 ### Evaluating a Model
 
+Please download our trained models [here](https://berkeley.box.com/s/c9pp0teffvu3je7w93ug6xcjs3zop5iq) (923M).
+
 ```shell
   cd /models/research/slim/
   ./finetune_resnet_50_on_buildings_eval.sh
